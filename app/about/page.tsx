@@ -6,12 +6,12 @@ import MotionLink from "@/components/MotionLink";
 export const metadata: Metadata = {
   title: "About | Ironfield Recruitment | Engineering Recruiter Yorkshire",
   description:
-    "Rory Tanton — engineer turned specialist recruiter. Royal Navy, field service, inspection engineering. Based in Market Weighton, East Yorkshire.",
+    "Rory Tanton, engineer turned specialist recruiter. Royal Navy, field service, inspection engineering. Based in Market Weighton, East Yorkshire.",
   alternates: { canonical: "/about" },
   openGraph: {
     title: "About | Ironfield Recruitment | Engineering Recruiter Yorkshire",
     description:
-      "Rory Tanton — engineer turned specialist recruiter. Royal Navy, field service, inspection engineering. Based in Market Weighton, East Yorkshire.",
+      "Rory Tanton, engineer turned specialist recruiter. Royal Navy, field service, inspection engineering. Based in Market Weighton, East Yorkshire.",
     url: "/about",
     siteName: "Ironfield Recruitment",
     images: ["/og-about.png"],
@@ -19,23 +19,23 @@ export const metadata: Metadata = {
 };
 
 const credentials = [
-  "Royal Navy Submarine Service — Weapons Engineer, 6 years 8 months",
+  "Royal Navy Submarine Service, Weapons Engineer, 6 years 8 months",
   "Promoted to Leading ET within 3 months on a working platform",
-  "Field Service Engineer — Heald Ltd (electro-mechanical, hydraulic systems)",
-  "Engineering Surveyor — Inspection Network Ltd (authored SOPs, Scopes of Examination)",
-  "Full Stack Developer — 4 live apps shipped to Google Play independently",
+  "Field Service Engineer, Heald Ltd (electro-mechanical, hydraulic systems)",
+  "Engineering Surveyor, Inspection Network Ltd (authored SOPs, Scopes of Examination)",
+  "Full Stack Developer, 4 live apps shipped to Google Play independently",
 ];
 
 const sectors = [
-  "Offshore Wind",
-  "Oil & Gas",
-  "Renewable Energy",
-  "Subsea",
-  "Marine",
-  "Industrial Maintenance",
+  "Field Service & On-Site Maintenance",
   "Electro-Mechanical",
-  "Field Service",
-  "Software Engineering",
+  "Hydraulics & Fluid Power",
+  "Electronic Design",
+  "Electrical Design",
+  "Embedded Software & Firmware",
+  "Industrial Maintenance (Multiskilled)",
+  "Engineering Inspection",
+  "Defence & Aerospace",
 ];
 
 const values = [
@@ -49,7 +49,7 @@ const values = [
   },
   {
     title: "Specialist",
-    body: "Engineering and offshore only. I don't do generalist. I know the work, the culture, and the difference between a good candidate and the right one.",
+    body: "Engineering only, across nine specialist sectors. I know the work, the culture, and the difference between a good candidate and the right one.",
   },
 ];
 
@@ -62,7 +62,7 @@ const timeline = [
   {
     period: "2023",
     title: "Field Service Engineer, Heald Ltd",
-    body: "On-site fault diagnosis, SOPs, corrective maintenance procedures.",
+    body: "On-site fault diagnosis, electro-mechanical and hydraulic systems.",
   },
   {
     period: "2023–2024",
@@ -77,7 +77,7 @@ const timeline = [
   {
     period: "2026",
     title: "Founded Ironfield Recruitment",
-    body: "Specialist engineering and offshore recruitment.",
+    body: "Specialist engineering recruitment, built on hands-on experience.",
   },
 ];
 
@@ -127,7 +127,8 @@ export default function About() {
             Built from the inside out.
           </h1>
           <p className="text-muted text-lg font-light max-w-2xl mx-auto">
-            Most recruiters have never done the job they&apos;re hiring for. I have.
+            Most recruiters have never done the job they&apos;re hiring for. I have, in three
+            different fields.
           </p>
         </div>
       </section>
@@ -197,8 +198,8 @@ export default function About() {
           <div>
             <FadeUp>
               <p className="mb-5 leading-relaxed text-muted font-light">
-                My name is Rory Tanton. I spent nearly seven years in the Royal Navy Submarine
-                Service as a Weapons Engineer — responsible for the safety and operation of
+                My name is Rory Tanton. I spent 6 years and 8 months in the Royal Navy Submarine
+                Service as a Weapons Engineer, responsible for the safety and operation of
                 strategic weapons systems, navigation systems, and associated hydraulics. I was
                 promoted to Leading Engineering Technician within three months of joining a
                 working platform.
@@ -211,13 +212,14 @@ export default function About() {
                 electro-mechanical and hydraulic systems. From there I moved into engineering
                 inspection at Inspection Network Ltd, producing detailed reports on complex
                 installations and authoring Scopes of Examination for new plant types including
-                escalators, piling rigs, and power presses.
+                escalators, piling rigs, and power presses. I also wrote the training materials
+                junior surveyors used to learn the job.
               </p>
             </FadeUp>
             <FadeUp delay={200}>
               <p className="mb-8 leading-relaxed text-muted font-light">
                 I now combine that engineering background with skills as a Full Stack Developer
-                and UX Designer — I&apos;ve designed and shipped four live mobile applications
+                and UX Designer. I&apos;ve designed and shipped four live mobile applications
                 independently to Google Play. Ironfield Recruitment exists because I understand
                 both worlds: the hands-on engineering environment candidates come from, and the
                 technical landscape companies are operating in. I represent engineers properly
@@ -241,8 +243,9 @@ export default function About() {
           <div>
             <FadeUp>
               <p className="font-display italic text-2xl md:text-3xl leading-relaxed mb-10">
-                &ldquo;I don&apos;t recruit <span className="grad-text">for</span> engineers. I
-                recruit <span className="grad-text">as one.</span>&rdquo;
+                &ldquo;I&apos;ve sat on <span className="grad-text">both sides</span> of this
+                conversation, the candidate and the client, so I know what
+                <span className="grad-text"> both actually need.</span>&rdquo;
               </p>
             </FadeUp>
             <p className="text-muted uppercase text-xs font-semibold tracking-wide mb-4">
@@ -287,7 +290,7 @@ export default function About() {
             Ready to work with a recruiter who gets it?
           </h2>
           <p className="text-muted font-light mb-8">
-            Whether you&apos;re hiring or looking — let&apos;s have a proper conversation.
+            Whether you&apos;re hiring or looking, let&apos;s have a proper conversation.
           </p>
           <MotionLink
             href="/contact"

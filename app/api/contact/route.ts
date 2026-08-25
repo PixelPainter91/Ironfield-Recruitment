@@ -11,7 +11,7 @@ export async function POST(request: Request) {
 
     const resend = new Resend(process.env.RESEND_API_KEY);
 
-    await resend.emails.send({
+    const { error } = await resend.emails.send({
       from: "Ironfield Recruitment <enquiries@ironfieldrecruitment.uk>",
       to: "rory_tanton@hotmail.com",
       reply_to: email,
@@ -26,6 +26,11 @@ export async function POST(request: Request) {
         message,
       ].join("\n"),
     });
+
+    if (error) {
+      console.error("Resend error:", error);
+      return NextResponse.json({ error: "Failed to send message" }, { status: 500 });
+    }
 
     return NextResponse.json({ success: true }, { status: 200 });
   } catch (error) {

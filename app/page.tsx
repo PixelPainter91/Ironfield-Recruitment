@@ -3,14 +3,14 @@ import FadeUp from "@/components/FadeUp";
 import MotionLink from "@/components/MotionLink";
 
 export const metadata: Metadata = {
-  title: "Ironfield Recruitment | Engineering & Offshore Wind Recruitment Yorkshire",
+  title: "Ironfield Recruitment | Specialist Engineering Recruitment Yorkshire",
   description:
-    "Specialist engineering recruitment for offshore wind, oil & gas, and industrial sectors across Yorkshire and the Humber. Engineers placed by an engineer.",
+    "Specialist engineering recruitment across field service, electro-mechanical, hydraulics, electronic and electrical design, embedded software, industrial maintenance, inspection, and defence & aerospace. Engineers placed by an engineer.",
   alternates: { canonical: "/" },
   openGraph: {
-    title: "Ironfield Recruitment | Engineering & Offshore Wind Recruitment Yorkshire",
+    title: "Ironfield Recruitment | Specialist Engineering Recruitment Yorkshire",
     description:
-      "Specialist engineering recruitment for offshore wind, oil & gas, and industrial sectors across Yorkshire and the Humber. Engineers placed by an engineer.",
+      "Specialist engineering recruitment across field service, electro-mechanical, hydraulics, electronic and electrical design, embedded software, industrial maintenance, inspection, and defence & aerospace. Engineers placed by an engineer.",
     url: "/",
     siteName: "Ironfield Recruitment",
     images: ["/og-home.png"],
@@ -21,7 +21,7 @@ const whyCards = [
   {
     n: "01",
     title: "Engineer to Engineer",
-    body: "Over a decade of hands-on engineering experience. I understand the work, the culture, and what makes a great candidate.",
+    body: "Nearly a decade of hands-on engineering experience, from submarines to site to inspection. I understand the work, the culture, and what makes a great candidate.",
   },
   {
     n: "02",
@@ -31,25 +31,25 @@ const whyCards = [
   {
     n: "03",
     title: "Quality Over Volume",
-    body: "You won't receive a stack of CVs. You'll receive the right one — vetted, understood, and matched to your requirement.",
+    body: "You won't receive a stack of CVs. You'll receive the right one, vetted, understood, and matched to your requirement.",
   },
   {
     n: "04",
-    title: "Transparent Terms",
-    body: "15% placement fee, 30-day rebate guarantee. No hidden charges, no surprises.",
+    title: "Terms Agreed Upfront",
+    body: "Fees are set based on the brief, not a fixed percentage pulled from a rate card. You'll know the number before we start. 30-day rebate guarantee on every placement.",
   },
 ];
 
 const steps = [
-  { n: "01", title: "Get in Touch", body: "Tell me what you need — a role to fill or a role to find." },
+  { n: "01", title: "Get in Touch", body: "Tell me what you need, a role to fill or a role to find." },
   { n: "02", title: "A Real Conversation", body: "No forms-only process. We talk, properly, about the detail." },
-  { n: "03", title: "The Right Match", body: "I bring you one vetted option, not a stack of CVs." },
+  { n: "03", title: "The Shortlist", body: "I bring you a few vetted options, not a stack of CVs." },
   { n: "04", title: "Placed & Protected", body: "30-day rebate guarantee backs every placement I make." },
 ];
 
 const stats = [
-  { n: "10+", label: "Years Engineering Experience" },
-  { n: "15%", label: "Transparent Placement Fee" },
+  { n: "~10", label: "Years Engineering Experience" },
+  { n: "9", label: "Specialist Sectors Covered" },
   { n: "30 Day", label: "Rebate Guarantee" },
   { n: "100%", label: "Specialist Focus" },
 ];
@@ -68,9 +68,12 @@ export default function Home() {
               <br />
               <span className="italic grad-text">an engineer.</span>
             </h1>
-            <p className="text-muted text-lg font-light mb-8 max-w-md">
-              Ironfield Recruitment connects skilled engineers with the companies that need them
-              — across offshore, renewable energy, and industrial sectors.
+            <p className="text-muted text-lg font-light mb-4 max-w-md">
+              Ironfield Recruitment connects skilled engineers with the companies that need them.
+            </p>
+            <p className="font-display italic text-lg md:text-xl leading-snug mb-8 max-w-md">
+              &ldquo;I don&apos;t recruit <span className="grad-text">for</span> engineers. I
+              recruit <span className="grad-text">as one.</span>&rdquo;
             </p>
             <div className="flex flex-wrap gap-4">
               <MotionLink
@@ -148,6 +151,10 @@ export default function Home() {
           <h2 className="font-display text-3xl md:text-4xl font-bold mb-8">
             Ready to find the right engineer?
           </h2>
+          <p className="text-muted font-light mb-8 max-w-md mx-auto">
+            Whether you need someone on site next week or you're ready for your next role, let's
+            talk.
+          </p>
           <MotionLink
             href="/contact"
             className="grad-bg text-bg px-8 py-3 rounded-full font-medium inline-block"
