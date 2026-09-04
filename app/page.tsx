@@ -3,14 +3,14 @@ import FadeUp from "@/components/FadeUp";
 import MotionLink from "@/components/MotionLink";
 
 export const metadata: Metadata = {
-  title: "Ironfield Recruitment | Executive Search for Engineering Leadership",
+  title: "Ironfield Recruitment | Executive Search for Engineering & Commercial Leadership",
   description:
-    "Executive search and headhunting for engineering leadership across field service, electro-mechanical, hydraulics, electronic and electrical design, embedded software, industrial maintenance, inspection, and defence & aerospace. Led by an engineer.",
+    "Executive search and headhunting for engineering leadership and senior commercial roles, from field service and electro-mechanical to business development and sales leadership. Led by an engineer.",
   alternates: { canonical: "/" },
   openGraph: {
-    title: "Ironfield Recruitment | Executive Search for Engineering Leadership",
+    title: "Ironfield Recruitment | Executive Search for Engineering & Commercial Leadership",
     description:
-      "Executive search and headhunting for engineering leadership across field service, electro-mechanical, hydraulics, electronic and electrical design, embedded software, industrial maintenance, inspection, and defence & aerospace. Led by an engineer.",
+      "Executive search and headhunting for engineering leadership and senior commercial roles, from field service and electro-mechanical to business development and sales leadership. Led by an engineer.",
     url: "/",
     siteName: "Ironfield Recruitment",
     images: ["/og-home.png"],
@@ -20,8 +20,8 @@ export const metadata: Metadata = {
 const whyCards = [
   {
     n: "01",
-    title: "Engineer to Engineer",
-    body: "Nearly a decade of hands-on engineering experience, from submarines to site to inspection. I understand the work, the culture, and what separates a great leader from a good one.",
+    title: "Precision, Not Guesswork",
+    body: "Nearly a decade in engineering and full stack development trained me to work with precision and logic. I apply that same discipline to reading a brief and matching the right person to it.",
   },
   {
     n: "02",
@@ -64,13 +64,13 @@ export default function Home() {
               Executive Search &amp; Headhunting
             </p>
             <h1 className="font-display text-4xl md:text-6xl font-extrabold leading-tight mb-6">
-              Engineering leaders,
+              Engineer to Executive,
               <br />
-              <span className="italic grad-text">found by an engineer.</span>
+              <span className="italic grad-text">matched by logic, not luck.</span>
             </h1>
             <p className="text-muted text-lg font-light mb-4 max-w-md">
-              Ironfield Recruitment is an executive search consultancy connecting engineering
-              leaders with the companies that need them.
+              Ironfield Recruitment is an executive search consultancy connecting engineering and
+              commercial leaders with the companies that need them.
             </p>
             <p className="font-display italic text-lg md:text-xl leading-snug mb-8 max-w-md">
               &ldquo;I don&apos;t search <span className="grad-text">for</span> engineers. I

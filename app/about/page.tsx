@@ -6,12 +6,12 @@ import MotionLink from "@/components/MotionLink";
 export const metadata: Metadata = {
   title: "About | Ironfield Recruitment | Executive Search Consultant Yorkshire",
   description:
-    "Rory Tanton, engineer turned executive search consultant. Royal Navy, field service, inspection engineering. Based in Market Weighton, East Yorkshire.",
+    "Rory Tanton, engineer and operator turned executive search consultant. Royal Navy, field service, inspection engineering, independent business owner. Based in Market Weighton, East Yorkshire.",
   alternates: { canonical: "/about" },
   openGraph: {
     title: "About | Ironfield Recruitment | Executive Search Consultant Yorkshire",
     description:
-      "Rory Tanton, engineer turned executive search consultant. Royal Navy, field service, inspection engineering. Based in Market Weighton, East Yorkshire.",
+      "Rory Tanton, engineer and operator turned executive search consultant. Royal Navy, field service, inspection engineering, independent business owner. Based in Market Weighton, East Yorkshire.",
     url: "/about",
     siteName: "Ironfield Recruitment",
     images: ["/og-about.png"],
@@ -36,6 +36,8 @@ const sectors = [
   "Industrial Maintenance (Multiskilled)",
   "Engineering Inspection",
   "Defence & Aerospace",
+  "Business Development & Sales Leadership",
+  "Commercial & Executive Leadership",
 ];
 
 const values = [
@@ -49,7 +51,7 @@ const values = [
   },
   {
     title: "Specialist",
-    body: "Engineering only, across nine specialist sectors. I know the work, the culture, and the difference between a good candidate and the right one.",
+    body: "Engineering and commercial leadership, nothing generalist. I know the work, the culture, and the difference between a good candidate and the right one.",
   },
 ];
 
@@ -219,11 +221,12 @@ export default function About() {
             <FadeUp delay={200}>
               <p className="mb-8 leading-relaxed text-muted font-light">
                 I now combine that engineering background with skills as a Full Stack Developer
-                and UX Designer. I&apos;ve designed and shipped four live mobile applications
-                independently to Google Play. Ironfield Recruitment exists because I understand
-                both worlds: the hands-on engineering environment candidates come from, and the
-                technical landscape companies are operating in. I run every search personally
-                because I&apos;ve done the job I&apos;m searching for.
+                and UX Designer, and with running Ironfield as my own business. I&apos;ve
+                designed and shipped four live mobile applications independently to Google Play.
+                That mix, technical delivery, business ownership, and leading teams under
+                pressure, is why I don&apos;t just search for engineering talent. I search for
+                commercial and business development leaders too, because I understand what it
+                takes to build and win, not just to execute.
               </p>
             </FadeUp>
 
