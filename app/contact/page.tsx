@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact | Ironfield Recruitment | Engineering Recruiter Yorkshire",
+  title: "Contact | Ironfield Recruitment | Executive Search Consultant Yorkshire",
   description:
-    "Get in touch with Ironfield Recruitment. Whether you need to hire an engineer or you're an engineer looking for your next role — let's talk.",
+    "Get in touch with Ironfield Recruitment. Whether you need to hire engineering leadership or you're ready for your next role, let's talk.",
   alternates: { canonical: "/contact" },
   openGraph: {
-    title: "Contact | Ironfield Recruitment | Engineering Recruiter Yorkshire",
+    title: "Contact | Ironfield Recruitment | Executive Search Consultant Yorkshire",
     description:
-      "Get in touch with Ironfield Recruitment. Whether you need to hire an engineer or you're an engineer looking for your next role — let's talk.",
+      "Get in touch with Ironfield Recruitment. Whether you need to hire engineering leadership or you're ready for your next role, let's talk.",
     url: "/contact",
     siteName: "Ironfield Recruitment",
     images: ["/og-contact.png"],

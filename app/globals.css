@@ -33,7 +33,7 @@ body {
   bottom: -4px;
   width: 100%;
   height: 1px;
-  background-image: linear-gradient(90deg, #f4845f, #f5c842);
+  background-image: linear-gradient(90deg, #f4845f 0%, #f5c842 40%, #7ecff4 100%);
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.25s ease-out;
@@ -53,17 +53,17 @@ body {
 }
 
 .grad-text {
-  background-image: linear-gradient(90deg, #f4845f, #f5c842);
+  background-image: linear-gradient(135deg, #f9a97e 0%, #f5c842 35%, #8b7fd4 70%, #7ecff4 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 
 .grad-bg {
-  background-image: linear-gradient(90deg, #f4845f, #f5c842);
+  background-image: linear-gradient(135deg, #f4845f 0%, #f9a97e 20%, #f5c842 40%, #9b8fd8 65%, #7ecff4 100%);
 }
 
 .grad-line {
   height: 2px;
-  background-image: linear-gradient(90deg, #f4845f, #f5c842);
+  background-image: linear-gradient(90deg, #f4845f 0%, #f5c842 40%, #7ecff4 100%);
 }

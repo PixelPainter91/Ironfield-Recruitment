@@ -3,14 +3,14 @@ import FadeUp from "@/components/FadeUp";
 import MotionLink from "@/components/MotionLink";
 
 export const metadata: Metadata = {
-  title: "Ironfield Recruitment | Specialist Engineering Recruitment Yorkshire",
+  title: "Ironfield Recruitment | Executive Search for Engineering Leadership",
   description:
-    "Specialist engineering recruitment across field service, electro-mechanical, hydraulics, electronic and electrical design, embedded software, industrial maintenance, inspection, and defence & aerospace. Engineers placed by an engineer.",
+    "Executive search and headhunting for engineering leadership across field service, electro-mechanical, hydraulics, electronic and electrical design, embedded software, industrial maintenance, inspection, and defence & aerospace. Led by an engineer.",
   alternates: { canonical: "/" },
   openGraph: {
-    title: "Ironfield Recruitment | Specialist Engineering Recruitment Yorkshire",
+    title: "Ironfield Recruitment | Executive Search for Engineering Leadership",
     description:
-      "Specialist engineering recruitment across field service, electro-mechanical, hydraulics, electronic and electrical design, embedded software, industrial maintenance, inspection, and defence & aerospace. Engineers placed by an engineer.",
+      "Executive search and headhunting for engineering leadership across field service, electro-mechanical, hydraulics, electronic and electrical design, embedded software, industrial maintenance, inspection, and defence & aerospace. Led by an engineer.",
     url: "/",
     siteName: "Ironfield Recruitment",
     images: ["/og-home.png"],
@@ -21,36 +21,36 @@ const whyCards = [
   {
     n: "01",
     title: "Engineer to Engineer",
-    body: "Nearly a decade of hands-on engineering experience, from submarines to site to inspection. I understand the work, the culture, and what makes a great candidate.",
+    body: "Nearly a decade of hands-on engineering experience, from submarines to site to inspection. I understand the work, the culture, and what separates a great leader from a good one.",
   },
   {
     n: "02",
     title: "Small List. Full Focus.",
-    body: "I work with a small number of clients at any one time. Every placement gets my personal attention.",
+    body: "I work with a small number of clients at any one time. Every search gets my personal attention.",
   },
   {
     n: "03",
     title: "Quality Over Volume",
-    body: "You won't receive a stack of CVs. You'll receive the right one, vetted, understood, and matched to your requirement.",
+    body: "You won't receive a stack of CVs. You'll receive the right candidate, vetted, understood, and matched to your requirement.",
   },
   {
     n: "04",
     title: "Terms Agreed Upfront",
-    body: "Fees are set based on the brief, not a fixed percentage pulled from a rate card. You'll know the number before we start. 30-day rebate guarantee on every placement.",
+    body: "Every engagement is scoped and agreed with you directly before work begins. No rate cards, no surprises.",
   },
 ];
 
 const steps = [
   { n: "01", title: "Get in Touch", body: "Tell me what you need, a role to fill or a role to find." },
   { n: "02", title: "A Real Conversation", body: "No forms-only process. We talk, properly, about the detail." },
-  { n: "03", title: "The Shortlist", body: "I bring you a few vetted options, not a stack of CVs." },
-  { n: "04", title: "Placed & Protected", body: "30-day rebate guarantee backs every placement I make." },
+  { n: "03", title: "The Search", body: "I identify, approach, and vet candidates directly." },
+  { n: "04", title: "The Shortlist", body: "I bring you a small number of thoroughly vetted candidates." },
 ];
 
 const stats = [
   { n: "~10", label: "Years Engineering Experience" },
   { n: "9", label: "Specialist Sectors Covered" },
-  { n: "30 Day", label: "Rebate Guarantee" },
+  { n: "1:1", label: "Personal Engagement" },
   { n: "100%", label: "Specialist Focus" },
 ];
 
@@ -61,19 +61,20 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6 py-20 md:py-28 grid md:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-gold uppercase text-sm font-semibold tracking-wide mb-4">
-              Specialist Engineering Recruitment
+              Executive Search &amp; Headhunting
             </p>
             <h1 className="font-display text-4xl md:text-6xl font-extrabold leading-tight mb-6">
-              Engineers placed by
+              Engineering leaders,
               <br />
-              <span className="italic grad-text">an engineer.</span>
+              <span className="italic grad-text">found by an engineer.</span>
             </h1>
             <p className="text-muted text-lg font-light mb-4 max-w-md">
-              Ironfield Recruitment connects skilled engineers with the companies that need them.
+              Ironfield Recruitment is an executive search consultancy connecting engineering
+              leaders with the companies that need them.
             </p>
             <p className="font-display italic text-lg md:text-xl leading-snug mb-8 max-w-md">
-              &ldquo;I don&apos;t recruit <span className="grad-text">for</span> engineers. I
-              recruit <span className="grad-text">as one.</span>&rdquo;
+              &ldquo;I don&apos;t search <span className="grad-text">for</span> engineers. I
+              search <span className="grad-text">as one.</span>&rdquo;
             </p>
             <div className="flex flex-wrap gap-4">
               <MotionLink
@@ -149,10 +150,10 @@ export default function Home() {
       <section className="bg-surface2">
         <div className="max-w-6xl mx-auto px-6 py-20 text-center">
           <h2 className="font-display text-3xl md:text-4xl font-bold mb-8">
-            Ready to find the right engineer?
+            Ready to find the right leader?
           </h2>
           <p className="text-muted font-light mb-8 max-w-md mx-auto">
-            Whether you need someone on site next week or you're ready for your next role, let's
+            Whether you're building a leadership team or you're ready for your next role, let's
             talk.
           </p>
           <MotionLink

@@ -4,14 +4,14 @@ import FadeUp from "@/components/FadeUp";
 import MotionLink from "@/components/MotionLink";
 
 export const metadata: Metadata = {
-  title: "About | Ironfield Recruitment | Engineering Recruiter Yorkshire",
+  title: "About | Ironfield Recruitment | Executive Search Consultant Yorkshire",
   description:
-    "Rory Tanton, engineer turned specialist recruiter. Royal Navy, field service, inspection engineering. Based in Market Weighton, East Yorkshire.",
+    "Rory Tanton, engineer turned executive search consultant. Royal Navy, field service, inspection engineering. Based in Market Weighton, East Yorkshire.",
   alternates: { canonical: "/about" },
   openGraph: {
-    title: "About | Ironfield Recruitment | Engineering Recruiter Yorkshire",
+    title: "About | Ironfield Recruitment | Executive Search Consultant Yorkshire",
     description:
-      "Rory Tanton, engineer turned specialist recruiter. Royal Navy, field service, inspection engineering. Based in Market Weighton, East Yorkshire.",
+      "Rory Tanton, engineer turned executive search consultant. Royal Navy, field service, inspection engineering. Based in Market Weighton, East Yorkshire.",
     url: "/about",
     siteName: "Ironfield Recruitment",
     images: ["/og-about.png"],
@@ -45,7 +45,7 @@ const values = [
   },
   {
     title: "Accountable",
-    body: "I stand behind every placement. 30-day rebate, no excuses. If it doesn't work out, you're not left out of pocket.",
+    body: "I stand behind every search I run. Every engagement is agreed upfront, no excuses.",
   },
   {
     title: "Specialist",
@@ -121,14 +121,14 @@ export default function About() {
       <section className="bg-bg">
         <div className="max-w-4xl mx-auto px-6 py-20 md:py-28 text-center">
           <p className="text-gold uppercase text-sm font-semibold tracking-wide mb-4">
-            About Ironfield Recruitment
+            Executive Search Consultant
           </p>
           <h1 className="font-display text-4xl md:text-6xl font-extrabold leading-tight mb-6">
             Built from the inside out.
           </h1>
           <p className="text-muted text-lg font-light max-w-2xl mx-auto">
-            Most recruiters have never done the job they&apos;re hiring for. I have, in three
-            different fields.
+            Most search consultants have never done the job they&apos;re hiring for. I have, in
+            three different fields.
           </p>
         </div>
       </section>
@@ -222,8 +222,8 @@ export default function About() {
                 and UX Designer. I&apos;ve designed and shipped four live mobile applications
                 independently to Google Play. Ironfield Recruitment exists because I understand
                 both worlds: the hands-on engineering environment candidates come from, and the
-                technical landscape companies are operating in. I represent engineers properly
-                because I&apos;ve been one.
+                technical landscape companies are operating in. I run every search personally
+                because I&apos;ve done the job I&apos;m searching for.
               </p>
             </FadeUp>
 
@@ -287,7 +287,7 @@ export default function About() {
       <section className="bg-surface2">
         <div className="max-w-3xl mx-auto px-6 py-20 text-center">
           <h2 className="font-display text-3xl md:text-4xl font-bold mb-4">
-            Ready to work with a recruiter who gets it?
+            Ready to work with a search consultant who gets it?
           </h2>
           <p className="text-muted font-light mb-8">
             Whether you&apos;re hiring or looking, let&apos;s have a proper conversation.

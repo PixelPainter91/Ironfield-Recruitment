@@ -12,6 +12,7 @@ const config: Config = {
         muted: "#a89ec0",
         muted2: "#5e5578",
         gold: "#8b7fd4",
+        goldLight: "#9b8fd8",
         coral: "#f4845f",
         peach: "#f9a97e",
         amber2: "#f5c842",
@@ -19,7 +20,8 @@ const config: Config = {
         sky: "#7ecff4",
       },
       backgroundImage: {
-        grad: "linear-gradient(90deg, #f4845f, #f5c842)",
+        grad: "linear-gradient(135deg, #f4845f 0%, #f9a97e 20%, #f5c842 40%, #9b8fd8 65%, #7ecff4 100%)",
+        gradH: "linear-gradient(90deg, #f4845f 0%, #f5c842 40%, #7ecff4 100%)",
       },
       fontFamily: {
         display: ["var(--font-playfair)", "serif"],
